@@ -44,6 +44,6 @@ if they have reproducible practices or how to ensure reproducibility (20 mins)
   Students will acquire hands on experience on writing test cases. (30 mins)
   - How can I identify bugs easier?
     - Students will learn about test automation and Continuous integration (30 mins)
-  - My test is ready.. how can I share it? Measuring test quality, getting cited for your software, documentation, containers?execution environments? (40 mins)
+  - My test is ready.. how can I share it? Measuring test quality, getting cited for your software, documentation, containers? execution environments? (40 mins)
 
 closing up (10 mins)  

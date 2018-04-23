@@ -1,8 +1,13 @@
 # ReproduciblePython  🐍🐱‍👤
 
-Workshop materials for PyCon 2018 workshop on reproducible analysis in Python
+The proposal for this workshop can be found in the [proposal.md](./proposal.md) file.
 
-The content as described in the workshop proposal can be read in the [proposal.md](./proposal.md) file.
+
+## Workshop materials for PyCon 2018 workshop on reproducible analysis in Python
+
+**Discussion**
+We will encourage discussions over the workshop, for this purpose we will be using this Etherpad [https://public.etherpad-mozilla.org/p/ReproduciblePython](https://public.etherpad-mozilla.org/p/ReproduciblePython.)
+
 
 
 
