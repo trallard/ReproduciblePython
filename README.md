@@ -1,4 +1,4 @@
-# ReproduciblePython  🐍👩🏻‍💻👨🏾‍💻👩🏽‍💻
+# ReproduciblePython  🐍🐱‍👤
 
 Workshop materials for PyCon 2018 workshop on reproducible analysis in Python
 

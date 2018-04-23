@@ -1,5 +1,4 @@
-# Down the rabbit hole. A 101
-on reproducible workflows with Python
+# Down the rabbit hole. A 101 on reproducible workflows with Python
 
 ## Description
 
@@ -31,16 +30,20 @@ day to day workflows.
 
 ## Outline
 
--Introduction to reproducibility and its importance (20 mins): presentation
--How reproducible are my workflows?: team discussion- attendees will make teams and discuss ]
+- Introduction to reproducibility and its importance (20 mins): presentation
+- How reproducible are my workflows?: team discussion (attendees will make teams and discuss)
 if they have reproducible practices or how to ensure reproducibility (20 mins)
 - Hands on:
-  -  Starting a project: early considerations for reproducibility- Introduction to licensing, data and
-  softeare curation strategies that have to be considered in the early strategies of the project. Students will
-  start settin up a 'mock project' (30 mins)
-  - How do I make sure my results are correct?: Testing in Python- How to develop software and test it at the same time.
+  -  **Starting a project:** early considerations for reproducibility
+    - Introduction to licensing, data and
+  software curation strategies that have to be considered in the early strategies of the project. Students will
+  start setting up a 'mock project' (30 mins)
+  - How do I make sure my results are correct?
+    - Testing in Python
+    - How to develop software and test it at the same time.
   Students will acquire hands on experience on writing test cases. (30 mins)
-  - How can I identify bugs easier?: Students will learn about test automation and Continuous integration (30 mins)
-  - My test is ready.. how can I share it? Measuring test quality, getting cited for your sofware, documentation, containers?execution environments? (40 mins)
+  - How can I identify bugs easier?
+    - Students will learn about test automation and Continuous integration (30 mins)
+  - My test is ready.. how can I share it? Measuring test quality, getting cited for your software, documentation, containers?execution environments? (40 mins)
 
 closing up (10 mins)  
