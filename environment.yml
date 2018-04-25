@@ -1,0 +1,14 @@
+name: reproPython
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>3.6
+  - pytest
+  - jupyterlab
+  - cookiecutter
+  - pandas
+  - matplotlib
+  - pip:
+    - nbval
+    - nbdime  
