@@ -13,7 +13,8 @@ The slides for the workshop can be found here:
 
 We will encourage discussions over the workshop, for this purpose we will be using an Etherpad. Click on the following link:  [https://public.etherpad-mozilla.org/p/ReproduciblePython](https://public.etherpad-mozilla.org/p/ReproduciblePython)
 
-
+## What do I need for this workshop?
+The installation instructions can be found at [http://bitsandchips.me/ReproduciblePython/Setup.html](http://bitsandchips.me/ReproduciblePython/Setup.html)
 
 
  ---

@@ -8451,15 +8451,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box 
+/* This file is a compatability layer.  It allows the usage of flexible box
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this 
+`Modern browsers` comments below).  Browsers that are known to implement this
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+ 
+    Internet Explorer 11+
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -11233,7 +11233,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for 
+  /* This injects handle bars (a short, wide = symbol) for
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -11672,7 +11672,7 @@ ul.typeahead-list > li > a {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-    
+
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -11726,14 +11726,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
@@ -11830,7 +11830,6 @@ or Windows operating system (not a tablet, Chromebook,
             <!-- Completing the Git Setup Wizard -->
             <li>Click on "Finish".</li>
           </ol>
-        &lt;/li&gt;
         <li>
           If your "HOME" environment variable is not set (or you don't know what this is):
           <ol>
@@ -11840,11 +11839,10 @@ or Windows operating system (not a tablet, Chromebook,
               <p><code>setx HOME "%USERPROFILE%"</code></p>
             </li>
             <li>Press [Enter], you should see <code>SUCCESS: Specified value was saved.</code></li>
-            <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li>
-          &lt;/ol&gt;
-        &lt;/li&gt;
-      &lt;/ol&gt;
-      <p>This will provide you with both Git and Bash in the Git Bash program.</p></p>
+              <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li></p>
+            </ol></ol>
+
+<p>This will provide you with both Git and Bash in the Git Bash program.</p>
 <p>📌 <strong>MAC OS X</strong></p>
 <p>The default shell in all versions of Mac OS X is Bash, so no
        need to install anything.  You access Bash from the Terminal
@@ -11886,13 +11884,13 @@ or Windows operating system (not a tablet, Chromebook,
         install (described above).</p>
 <p>📌 <strong>MAC OS X</strong></p>
 <p><strong>For OS X 10.9 and higher</strong>, install Git for Mac
-        by downloading and running the most recent "mavericks" installer from
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
-        After installing Git, there will not be anything in your <code>/Applications</code> folder,
-        as Git is a command line program.
-        <strong>For older versions of OS X (10.5-10.8)</strong> use the
-        most recent available installer labelled "snow-leopard"
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.</p>
+by downloading and running the most recent "mavericks" installer from
+<a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
+After installing Git, there will not be anything in your <code>/Applications</code> folder,
+as Git is a command line program.</p>
+<p><strong>For older versions of OS X (10.5-10.8)</strong> use the
+most recent available installer labelled "snow-leopard"
+<a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.</p>
 <p>📌 <strong>Linux</strong></p>
 <p>If Git is not already available on your machine you can try to
         install it via your distro's package manager. For Debian/Ubuntu run
@@ -11914,6 +11912,7 @@ or Windows operating system (not a tablet, Chromebook,
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
       </ol></p>
+
 <p>📌 <strong>MAC OS X</strong></p>
 <p><a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
       <ol>
@@ -11962,11 +11961,14 @@ or Windows operating system (not a tablet, Chromebook,
 <li>Download <a href="https://raw.githubusercontent.com/trallard/ReproduciblePython/master/environment.yml">environment.yml</a> to your local computer by right-clicking on the following link: <a href="https://raw.githubusercontent.com/trallard/ReproduciblePython/master/environment.yml">environment.yml</a></li>
 <li>Make sure you know where you saved the file</li>
 <li>Open your shell and navigate to the location of the file, for example if you saved it in Desktop you would type in <code>cd Desktop</code></li>
-<li>Type in the following command to create an environment fro the file:<div class="highlight"><pre><span></span>conda env create -f environment.yml
-</pre></div>
-You should see the packages being installed. Note it could take a while so you can go and grab yourself a cup of coffee or tea ☕</li>
-</ol>
-<p>If you have never used Jupyter notebooks you could have a look at this <a href="https://www.dataquest.io/blog/jupyter-notebook-tutorial/">Tutorial</a> before the workshop.</p>
+<li>Type in the following command to create an environment fro the file:</li></ol>
+<pre><code>
+conda env create -f environment.yml
+</code></pre>
+
+<p>You should see the packages being installed. Note it could take a while so you can go and grab yourself a cup of coffee or tea ☕</p>
+<hr>
+<p>⭐ If you have never used Jupyter notebooks you could have a look at this <a href="https://www.dataquest.io/blog/jupyter-notebook-tutorial/">Tutorial</a> to familiarize yourself before the</p>
 
 </div>
 </div>
@@ -11977,7 +11979,7 @@ You should see the packages being installed. Note it could take a while so you c
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Getting-your-accounts-ready">Getting your accounts ready<a class="anchor-link" href="#Getting-your-accounts-ready">&#182;</a></h2><h3 id="GitHub">GitHub<a class="anchor-link" href="#GitHub">&#182;</a></h3><p><br></p>
 <div class='warn'> Note you do not need to do the following if you already have a GitHub account. You only need to make sure you know your username and password </div><p>Go to the <a href="https://github.com/">GitHub homepage</a> to register for a new account, you should see the following page</p>
-<p>&lt;img src='./assets/gh.png' width=80%&gt;</p>
+<img src="https://github.com/trallard/ReproduciblePython/blob/master/assets/GH.png?raw=true">
 <ul>
 <li>Choose a username, email address and password.</li>
 <li>Click the green <em>Sign up</em> button</li>
@@ -11985,9 +11987,9 @@ You should see the packages being installed. Note it could take a while so you c
 <li>Choose the personal default plan</li>
 </ul>
 <h3 id="Travis-CI">Travis CI<a class="anchor-link" href="#Travis-CI">&#182;</a></h3><p>Go to <a href="https://travis-ci.org/">https://travis-ci.org/</a>, if you do not have an account yet you should see the following landing page:</p>
-<p>&lt;img src='./assets/travis1.png' width=80%&gt;</p>
+<p><img src='https://github.com/trallard/ReproduciblePython/blob/master/assets/travis1.PNG?raw=true'></p>
 <p>Click on the green <em>Sign up</em> button and login using your GitHub username and password</p>
-<p><img src='./assets/travis2.png'></p>
+<p><img src='https://github.com/trallard/ReproduciblePython/blob/master/assets/travis2.PNG?raw=true'></p>
 
 </div>
 </div>
@@ -12151,7 +12153,7 @@ MathJax.Hub.Config({
   </div>
 </body>
 
- 
+
 
 
 </html>
