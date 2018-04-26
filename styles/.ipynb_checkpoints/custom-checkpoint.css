@@ -1,0 +1,101 @@
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Dosis:400,500,700" rel="stylesheet"><style>
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+/* div.cell{
+width:800px;
+margin-left:16% !important;
+margin-right:auto;
+} */
+h1 {
+  font-family: 'Dosis', "Helvetica Neue", Arial, sans-serif;
+  color: #0B132B;
+}
+h2 {
+  font-family: 'Dosis', sans-serif;
+  color: #1C2541;
+}
+h3{
+  font-family: 'Dosis', sans-serif;
+  margin-top:12px;
+  margin-bottom: 3px;
+  color: #40a8a6;
+}
+h4{
+  font-family: 'Dosis', sans-serif;
+  color: #40a8a6;
+}
+h5 {
+  font-family: 'Dosis', sans-serif;
+  color: #40a8a6;
+}
+div.text_cell_render{
+  font-family: 'Didact Gothic',Computer Modern, "Helvetica Neue", Arial, Helvetica,
+  Geneva, sans-serif;
+  line-height: 130%;
+  font-size: 110%;
+  /* width:600px; */
+  /* margin-left:auto;
+  margin-right:auto; */
+}
+
+.text_cell_render h1 {
+  font-weight: 200;
+  font-size: 30pt;
+  /* font-size: 50pt */
+  line-height: 100%;
+  color:#0B132B;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  display: block;
+}
+
+.text_cell_render h2{
+  font-weight: 500;
+}
+
+.text_cell_render h3{
+  font-weight: 500;
+}
+
+
+.warning{
+  color: rgb( 240, 20, 20 )
+}
+
+div.warn {
+  background-color: #FF5A5F;
+  border-color: #FF5A5F;
+  border-left: 5px solid #C81D25;
+  padding: 0.5em;
+
+  color: #fff;
+  opacity: 0.8;
+}
+
+div.info {
+  background-color: #087E8B;
+  border-color: #087E8B;
+  border-left: 5px solid #0B3954;
+  padding: 0.5em;
+  color: #fff;
+  opacity: 0.8;
+}
+
+</style>
+<script>
+MathJax.Hub.Config({
+  TeX: {
+    extensions: ["AMSmath.js"]
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+      },
+      displayAlign: 'center', // Change this to 'center' to center equations.
+      "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 4}}
+      }
+      });
+      </script>
