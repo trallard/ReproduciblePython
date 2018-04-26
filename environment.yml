@@ -13,3 +13,4 @@ dependencies:
     - nbval
     - nbdime
     - recipy
+    - jupyter-repo2docker
