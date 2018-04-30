@@ -9,12 +9,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def process_data_GBP(filename):
+def get_country(filename, country):
     """
-    Get only the needed subset from the data.
+    Do a simple analysis per country
     Args:
     filename: str
         Path to the filename containing the wine data
+    country: str
+        Country to be used to subset
 
     Returns:
 
@@ -25,23 +27,25 @@ def process_data_GBP(filename):
     # Load table
     wine = pd.read_csv(filename)
 
-    # Subset of data to keep
-    wine_keep = wine.loc[:,['country', 'designation', 'points', 'price']]
+    # Use the country name to subset data
+    subset_country = wine[wine['country'] == country ].copy()
 
-    # Add column with prices in GBP
-    wine_keep['price_GBP'] = wine_keep['price'].apply(lambda x : x * 1.2)
+    # Subset the
 
     # Constructing the fname
     today = datetime.datetime.today().strftime('%Y-%m-%d')
-    fname = f'data/processed/{today}-winemag_priceGBP.csv'
+    fname = f'data/processed/{today}-winemag_{country}.csv'
 
     # Saving the csv
-    wine_keep.to_csv(fname)
+    subset_country.to_csv(fname)
 
     return(fname)
 
 
 if __name__ == '__main__':
     filename = sys.argv[1]
-    print(filename)
-    print(process_data_GBP(filename))
+    country = sys.argv[2]
+    print(f'Subsetting: {filename}')
+    print(f'Country searched: {country}')
+
+    print(get_country(filename, country))
