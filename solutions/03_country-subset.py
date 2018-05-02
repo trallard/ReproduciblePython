@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 def get_country(filename, country):
     """
-    Do a simple analysis per country
+    Get a subset of the data or a given country
     Args:
     -----
     filename: str

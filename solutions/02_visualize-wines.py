@@ -12,10 +12,20 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def create_plots(filename):
+    """
+    Create plots for the analysis
+    Args:
+    -----
+    filename: str
+        Path to the filename containing the wine data
+   
+    """
     wine = pd.read_csv(filename)
 
+    # Calls the function that plots the distribution
     print(plot_distribution(wine))
 
+    # Calls the function that plots the scatter plot
     print(plot_scatter(wine))
 
 
@@ -61,5 +71,7 @@ def plot_scatter(wine):
 
 
 if __name__ == '__main__':
+    # Filename is passed by the user 
     filename = sys.argv[1]
+    
     create_plots(filename)
