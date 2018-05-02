@@ -1,4 +1,8 @@
 #!/usr/bin/env python
+"""
+Module contaning the functions to visualize the 
+wines distribution using a subset data
+"""
 
 import sys
 import datetime
