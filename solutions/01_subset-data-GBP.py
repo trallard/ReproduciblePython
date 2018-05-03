@@ -45,7 +45,7 @@ def process_data_GBP(filename):
     fname = f'data/interim/{today}-winemag_priceGBP.csv'
 
     # Saving the csv
-    wine_keep.to_csv(fname)
+    wine_keep.to_csv(fname, index = False)
 
     return(fname)
 

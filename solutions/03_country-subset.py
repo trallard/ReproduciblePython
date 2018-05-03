@@ -1,29 +1,23 @@
 #!/usr/bin/env python
-"""
-Module containing the functions to subset the data
-according to a given country name
-"""
+
 
 import sys
 import datetime
 
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 
 
 def get_country(filename, country):
     """
-    Get a subset of the data or a given country
+    Do a simple analysis per country
     Args:
-    -----
     filename: str
         Path to the filename containing the wine data
     country: str
         Country to be used to subset
 
     Returns:
-    -----
+
     data_path: st
         Path to the created data set
     """
@@ -33,6 +27,7 @@ def get_country(filename, country):
 
     # Use the country name to subset data
     subset_country = wine[wine['country'] == country ].copy()
+    subset_country.reset_index(drop=True, inplace=True)
 
     # Subset the
 
@@ -41,10 +36,15 @@ def get_country(filename, country):
     fname = f'data/processed/{today}-winemag_{country}.csv'
 
     # Saving the csv
-    subset_country.to_csv(fname)
+    subset_country.to_csv(fname, index =False)
+    print(fname)  # print the fname from here
 
-    return(fname)
+    return(subset_country)  #returns the data frame
 
+def get_mean_price(filename):
+    wine = pd.read_csv(filename)
+    mean_price = wine['price'].mean()
+    return round(mean_price, 4)
 
 if __name__ == '__main__':
     filename = sys.argv[1]
