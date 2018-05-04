@@ -18,6 +18,23 @@ We will encourage discussions over the workshop, for this purpose we will be usi
 ## What do I need for this workshop?
 The installation instructions can be found at [http://bitsandchips.me/ReproduciblePython/Setup.html](http://bitsandchips.me/ReproduciblePython/Setup.html)
 
+## Acknowledgements
+
+The development of this material was funded by [OpenDreamKit][odk], 
+a [Horizon2020][h2020] European [Research Infrastructure][res-inf] project ([676541][odk-grant]) that aims to 
+advance the open source computational mathematics ecosystem.
+
+<div align="center"> 
+<img src="assets/opendreamkit.svg" alt="OpenDreamKit logo" height=200em />
+</div>
 
  ---
  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+
+
+[odk]: http://opendreamkit.org/
+[h2020]: https://ec.europa.eu/programmes/horizon2020/
+[res-inf]: https://ec.europa.eu/programmes/horizon2020/en/h2020-section/european-research-infrastructures-including-e-infrastructures
+[odk-grant]: http://cordis.europa.eu/project/rcn/198334_en.html
+[uos-rse]: http://rse.shef.ac.uk
