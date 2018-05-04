@@ -11,9 +11,21 @@ The slides for the workshop can be found here:
 - [Online html version](http://bitsandchips.me/Talks/PyCon.html): interactive slides
 - [PDF version](http://doi.org/cn9t)
 
-### Discussion
+### 💬 Discussion
 
 We will encourage discussions over the workshop, for this purpose we will be using an Etherpad. Click on the following link:  [https://public.etherpad-mozilla.org/p/ReproduciblePython](https://public.etherpad-mozilla.org/p/ReproduciblePython)
+
+
+### 🗃️ The content
+
+This material covers the basics of reproducible workflows in Python and is provided in the following sections:
+
+0. [Setup](./00_Setup.ipynb): installation instructions for the workshop
+1. [Setting up projects](./01_ProjectStructure.ipynb): advise on best practices to set up projects with a reproducibility-first approach
+2. [Working with data](./02_WorkingWithData.ipynb): information on how to use, archive, and share data
+3. [Processing data, workflows](03_ProcessData.ipynb): producing automated wokrflows 
+4. [All things testing](./04_testing.ipynb): introduction to testing of standalone scripts and Jupyter notebooks
+5. [Making code public](./05_SharingAnalysis.ipynb): how to share your code and being credited for it
 
 ## What do I need for this workshop?
 The installation instructions can be found at [http://bitsandchips.me/ReproduciblePython/Setup.html](http://bitsandchips.me/ReproduciblePython/Setup.html)
