@@ -1,0 +1,11 @@
+name: testenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>3.6
+  - pytest
+  - pandas
+  - matplotlib
+  - pip:
+    - nbval
