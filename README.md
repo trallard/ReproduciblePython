@@ -1,5 +1,7 @@
 # ReproduciblePython  🐍🐱‍👤
 
+[![DOI](https://zenodo.org/badge/130230667.svg)](https://zenodo.org/badge/latestdoi/130230667)
+
 Materials associated with the [PyCon 2018](https://us.pycon.org/2018/about/) workshop on reproducible analysis in Python.
 
 The proposal for this workshop can be found in the [proposal.md](./proposal.md) file.
