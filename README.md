@@ -20,7 +20,7 @@ We will encourage discussions over the workshop, for this purpose we will be usi
 
 This material covers the basics of reproducible workflows in Python and is provided in the following sections:
 
-0. [Setup](./00_Setup.ipynb): installation instructions for the workshop
+0. [Setup](00_Setup.ipynb): installation instructions for the workshop
 1. [Setting up projects](./01_ProjectStructure.ipynb): advise on best practices to set up projects with a reproducibility-first approach
 2. [Working with data](./02_WorkingWithData.ipynb): information on how to use, archive, and share data
 3. [Processing data, workflows](03_ProcessData.ipynb): producing automated wokrflows 
