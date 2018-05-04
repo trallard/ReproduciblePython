@@ -27,7 +27,7 @@ def process_data_GBP(filename):
 
     Returns:
     -----
-    data_path: st
+    fname: st
         Path to the created data set
     """
 

@@ -1,6 +1,5 @@
 # Byte-compiled / optimized / DLL files
 __pycache__
-__pycache__
 *.py[cod]
 *$py.class
 
@@ -104,3 +103,6 @@ ENV/
 
 /data
 */.DS_Store
+
+# pytest
+.pytest_cache/

@@ -19,7 +19,7 @@ def get_country(filename, country):
 
     Returns:
     -----
-    fname: st
+    data_path: st
         Path to the created data set
     """
 
@@ -30,17 +30,20 @@ def get_country(filename, country):
     subset_country = wine[wine['country'] == country ].copy()
     subset_country.reset_index(drop=True, inplace=True)
 
-    # Subset the
-
     # Constructing the fname
     today = datetime.datetime.today().strftime('%Y-%m-%d')
     fname = f'data/processed/{today}-winemag_{country}.csv'
 
     # Saving the csv
     subset_country.to_csv(fname, index =False)
-    
-    return(fname)
+    print(fname)  # print the fname from here
 
+    return(subset_country)  #returns the data frame
+
+def get_mean_price(filename):
+    wine = pd.read_csv(filename)
+    mean_price = wine['price'].mean()
+    return round(mean_price, 4)
 
 if __name__ == '__main__':
     filename = sys.argv[1]
