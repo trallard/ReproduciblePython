@@ -24,7 +24,7 @@ This material covers the basics of reproducible workflows in Python and is provi
 1. [Setting up projects](01_ProjectStructure.ipynb): advise on best practices to set up projects with a reproducibility-first approach
 2. [Working with data](02_WorkingWithData.ipynb): information on how to use, archive, and share data
 3. [Processing data, workflows](03_ProcessData.ipynb): producing automated wokrflows 
-4. [All things testing](04_testing.ipynb): introduction to testing of standalone scripts and Jupyter notebooks
+4. [All things testing](04_Testing.ipynb): introduction to testing of standalone scripts and Jupyter notebooks
 5. [Making code public](05_SharingAnalysis.ipynb): how to share your code and being credited for it
 
 ## What do I need for this workshop?
