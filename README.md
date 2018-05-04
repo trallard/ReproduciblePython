@@ -9,7 +9,7 @@ The proposal for this workshop can be found in the [proposal.md](./proposal.md) 
 ### Slides
 The slides for the workshop can be found here:
 - [Online html version](http://bitsandchips.me/Talks/PyCon.html): interactive slides
-- [PDF version](*****)
+- [PDF version](http://doi.org/cn9t)
 
 ### Discussion
 
