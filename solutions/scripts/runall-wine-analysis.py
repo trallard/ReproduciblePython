@@ -23,11 +23,9 @@ country_sub = importlib.import_module('.data.03_country-subset', 'scripts')
 
 # Set raw data path
 raw_data = "data/raw/winemag-data-130k-v2.csv"
-interim_data = "data/interim/2018-05-02-winemag_priceGBP.csv"
 
 # Set country
 country = "Chile"
-
 
 # ------------------------------------------------------------------------
 # Perform analysis

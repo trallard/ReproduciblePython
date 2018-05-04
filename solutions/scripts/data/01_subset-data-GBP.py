@@ -1,5 +1,13 @@
 #!/usr/bin/env python
 
+
+"""
+Module containing functions to subset the raw data:
+keeps description, country, price, points and adds
+column for price in GBP
+
+"""
+
 import sys
 import datetime
 
@@ -8,16 +16,18 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
+
 def process_data_GBP(filename):
     """
     Get only the needed subset from the data.
     Args:
+    -----
     filename: str
         Path to the filename containing the wine data
 
     Returns:
-
-    data_path: st
+    -----
+    fname: st
         Path to the created data set
     """
 
@@ -35,7 +45,7 @@ def process_data_GBP(filename):
     fname = f'data/interim/{today}-winemag_priceGBP.csv'
 
     # Saving the csv
-    wine_keep.to_csv(fname)
+    wine_keep.to_csv(fname, index = False)
 
     return(fname)
 

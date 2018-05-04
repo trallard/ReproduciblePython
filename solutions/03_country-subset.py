@@ -28,7 +28,6 @@ def get_country(filename, country):
 
     # Use the country name to subset data
     subset_country = wine[wine['country'] == country ].copy()
-    subset_country.reset_index(drop=True, inplace=True)
 
     # Subset the
 
