@@ -35,7 +35,7 @@ def get_country(filename, country):
     fname = f'data/processed/{today}-winemag_{country}.csv'
 
     # Saving the csv
-    subset_country.to_csv(fname, index =False)
+    subset_country.to_csv(fname, index=False)
     print(fname)  # print the fname from here
 
     return(subset_country)  #returns the data frame
