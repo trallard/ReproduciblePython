@@ -32,12 +32,12 @@ This material covers the basics of reproducible workflows in Python and is provi
 4. [All things testing](04_Testing.ipynb): introduction to testing of standalone scripts and Jupyter notebooks
 5. [Making code public](05_SharingAnalysis.ipynb): how to share your code and being credited for it
 
----
+
 
 ## 🖥️ What do I need for this workshop?
 The installation instructions can be found at [http://bitsandchips.me/ReproduciblePython/Setup.html](http://bitsandchips.me/ReproduciblePython/Setup.html)
 
----
+
 
 ## Acknowledgements
 
