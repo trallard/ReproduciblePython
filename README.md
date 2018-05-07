@@ -6,15 +6,20 @@ Materials associated with the [PyCon 2018](https://us.pycon.org/2018/about/) wor
 
 The proposal for this workshop can be found in the [proposal.md](./proposal.md) file.
 
+---
+
 ### Slides
-The slides for the workshop can be found here:
-- [Online html version](http://bitsandchips.me/Talks/PyCon.html): interactive slides
+🗒️ The slides for the workshop can be found here:
+- [Online html version](http://bitsandchips.me/Talks/PyCon.html): **interactive slides**
 - [PDF version](http://doi.org/cn9t)
+
+---
 
 ### 💬 Discussion
 
 We will encourage discussions over the workshop, for this purpose we will be using an Etherpad. Click on the following link:  [https://public.etherpad-mozilla.org/p/ReproduciblePython](https://public.etherpad-mozilla.org/p/ReproduciblePython)
 
+---
 
 ### 🗃️ The content
 
@@ -27,8 +32,12 @@ This material covers the basics of reproducible workflows in Python and is provi
 4. [All things testing](04_Testing.ipynb): introduction to testing of standalone scripts and Jupyter notebooks
 5. [Making code public](05_SharingAnalysis.ipynb): how to share your code and being credited for it
 
-## What do I need for this workshop?
+---
+
+## 🖥️ What do I need for this workshop?
 The installation instructions can be found at [http://bitsandchips.me/ReproduciblePython/Setup.html](http://bitsandchips.me/ReproduciblePython/Setup.html)
+
+---
 
 ## Acknowledgements
 
