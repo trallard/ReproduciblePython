@@ -34,6 +34,6 @@ country = "Chile"
 if __name__ == '__main__':
     subset_file = subset.process_data_GBP(raw_data)
     print(subset_file)
-    plotwines.create_plots(interim_data)
+    plotwines.create_plots(subset_file)
     country_file = country_sub.get_country(subset_file, country)
     print(country_file)
