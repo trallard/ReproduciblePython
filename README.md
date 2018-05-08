@@ -32,9 +32,10 @@ This material covers the basics of reproducible workflows in Python and is provi
 4. [All things testing](04_Testing.ipynb): introduction to testing of standalone scripts and Jupyter notebooks
 5. [Making code public](05_SharingAnalysis.ipynb): how to share your code and being credited for it
 
-🦄 Additional materials
-These are complementary materials that you can follow at your own pace if you wanted to complement the above sections
-[Getting started with Docker](Docker.ipynb): introduction to containers and usage of repo2docker
+### 🦄 Additional materials
+These are complementary materials that you can follow at your own pace if you wanted to dive further.
+
+- [Getting started with Docker](Docker.ipynb): introduction to containers and usage of repo2docker
 
 
 ## 🖥️ What do I need for this workshop?
