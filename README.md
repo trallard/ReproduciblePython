@@ -2,6 +2,9 @@
 
 [![DOI](https://zenodo.org/badge/130230667.svg)](https://zenodo.org/badge/latestdoi/130230667)
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/trallard/ReproduciblePython.git/master)
+
+
 Materials associated with the [PyCon 2018](https://us.pycon.org/2018/about/) workshop on reproducible analysis in Python.
 
 The proposal for this workshop can be found in the [proposal.md](./proposal.md) file.
@@ -36,6 +39,7 @@ This material covers the basics of reproducible workflows in Python and is provi
 These are complementary materials that you can follow at your own pace if you wanted to dive further.
 
 - [Getting started with Docker](Docker.ipynb): introduction to containers and usage of repo2docker
+- [Sharing your interactive notebooks using Binder](Binder.ipynb)
 
 
 ## 🖥️ What do I need for this workshop?
