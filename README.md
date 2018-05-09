@@ -40,7 +40,7 @@ These are complementary materials that you can follow at your own pace if you wa
 
 - [Getting started with Docker](Docker.ipynb): introduction to containers and usage of repo2docker
 - [Sharing your interactive notebooks using Binder](Binder.ipynb)
-
+- [Introduction to Datalad](Datalad.ipynb)
 
 ## 🖥️ What do I need for this workshop?
 The installation instructions can be found at [http://bitsandchips.me/ReproduciblePython/Setup.html](http://bitsandchips.me/ReproduciblePython/Setup.html)
