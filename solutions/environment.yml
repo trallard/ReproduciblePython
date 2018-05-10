@@ -7,5 +7,6 @@ dependencies:
   - pytest
   - pandas
   - matplotlib
+  - jinja2
   - pip:
     - nbval

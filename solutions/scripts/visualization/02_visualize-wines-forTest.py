@@ -4,9 +4,6 @@ Module contaning the functions to visualize the
 wines distribution using a subset data
 """
 
-import sys
-import datetime
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -52,6 +49,8 @@ def plot_distribution(wine):
 
     fname = f'figures/fig01_distribution-wine-scores.png'
     
+    # Adding this to catch exceptions when a figures folder
+    # does not exist
     try:
         fig.savefig(fname, bbox_inches = 'tight')
     except OSError as e:
@@ -73,13 +72,15 @@ def plot_scatter(wine):
 
     fname = f'figures/fig02_scatter-points-vs-price.png'
     
+    # Adding this to catch exceptions when a figures folder
+    # does not exist
     try:
         fig.savefig(fname, bbox_inches = 'tight')
     except OSError as e:
         os.makedirs('figures')
         print('Creating figures directory')
         fig.savefig(fname, bbox_inches='tight')
-        
+
     return (fname)
 
 

@@ -56,6 +56,6 @@ def plot_scatter(wine):
     return (fname)
 
 
-# if __name__ == '__main__':
-#     filename = sys.argv[1]
-#     create_plots(filename)
+if __name__ == '__main__':
+    filename = sys.argv[1]
+    create_plots(filename)

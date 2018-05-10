@@ -13,14 +13,15 @@ def get_country(filename, country):
     """
     Do a simple analysis per country
     Args:
+    -----
     filename: str
         Path to the filename containing the wine data
     country: str
         Country to be used to subset
 
     Returns:
-
-    data_path: st
+    -----
+    fname: st
         Path to the created data set
     """
 

@@ -13,9 +13,9 @@ import importlib
 # imports from our package
 # Since we have digits at the start of the modules we
 # will use dynamic imports
-subset = importlib.import_module('.data.01_subset-data-GBP', 'scripts')
-plotwines = importlib.import_module('.visualization.02_visualize-wines', 'scripts')
-country_sub = importlib.import_module('.data.03_country-subset', 'scripts')
+subset = importlib.import_module('.data.01_subset-data-GBP', 'src')
+plotwines = importlib.import_module('.visualization.02_visualize-wines', 'src')
+country_sub = importlib.import_module('.data.03_country-subset', 'src')
 
 # ------------------------------------------------------------------------
 # Declare variables
@@ -32,8 +32,14 @@ country = "Chile"
 # ------------------------------------------------------------------------
 
 if __name__ == '__main__':
+    # create the subset of the initial dataframe
     subset_file = subset.process_data_GBP(raw_data)
+    # prints out the name of the new file created
     print(subset_file)
+    # generate the plots
     plotwines.create_plots(subset_file)
+    # subset the data for the country given 
     country_file = country_sub.get_country(subset_file, country)
     print(country_file)
+    
+    
