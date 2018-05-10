@@ -42,6 +42,10 @@ These are complementary materials that you can follow at your own pace if you wa
 - [Sharing your interactive notebooks using Binder](Binder.ipynb)
 - [Introduction to Datalad](Datalad.ipynb)
 
+## Solutions
+The solutions to the tutorial can be found in the solutions folder. Make sure to read
+the [solutions README first](solutions/README.md)
+
 ## 🖥️ What do I need for this workshop?
 The installation instructions can be found at [http://bitsandchips.me/ReproduciblePython/Setup.html](http://bitsandchips.me/ReproduciblePython/Setup.html)
 
