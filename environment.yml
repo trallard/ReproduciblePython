@@ -15,4 +15,5 @@ dependencies:
     - recipy
     - hypothesis
     - pipenv
+    - datapackage
     - jupyter-repo2docker
