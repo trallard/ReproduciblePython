@@ -5,6 +5,6 @@ authors:
     given-names: Tania
     orcid: https://orcid.org/0000-0003-4925-7248
 title: 101 on reproducible workflows with Python 
-version: 1.0
+version: 1.1
 doi: 10.5281/zenodo.1241112
 date-released: 2018-05-04
